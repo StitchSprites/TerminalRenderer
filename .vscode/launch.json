@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run TerminalRenderer",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\build\\TerminalRenderer.exe",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Build TerminalRenderer",
+            "externalConsole": true
+        }
+    ]
+}
